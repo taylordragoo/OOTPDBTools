@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>OOTPDatabaseConverter.Mcp</AssemblyName>
+    <Version>1.0.0</Version>
+    <Authors>Steven Leffew</Authors>
+    <Company>OOTP Baseball Tools</Company>
+    <Product>OOTP Database MCP Server</Product>
+    <Description>MCP Server providing tools to query OOTP Database files</Description>
+    <RootNamespace>OOTPDatabaseConverter.Mcp</RootNamespace>
+    <Copyright>Copyright © Steven Leffew 2024</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OOTPDatabaseConverter.Core\OOTPDatabaseConverter.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ModelContextProtocol" Version="1.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,15 @@
+{
+  "$schema": "https://github.com/modelcontextprotocol/spec/blob/main/schema/schema.json",
+  "mcpServers": {
+    "ootp-db": {
+      "command": "/path/to/OOTPDatabaseConverter.Mcp",
+      "args": [
+        "--database",
+        "/path/to/ootp/database"
+      ],
+      "env": {
+        "MCP_LOG_LEVEL": "Info"
+      }
+    }
+  }
+}

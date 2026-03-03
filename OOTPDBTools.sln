@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOTPDatabaseConverter.Conso
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOTPDatabaseConverter.Gui", "OOTPDatabaseConverter.Gui\OOTPDatabaseConverter.Gui.csproj", "{D2E3F4G5-H6I7-9012-CDEF-345678901234}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOTPDatabaseConverter.Mcp", "OOTPDatabaseConverter.Mcp\OOTPDatabaseConverter.Mcp.csproj", "{E3F4G5H6-I7J8-9012-DEFG-456789012345}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOTPDatabaseConverter.Mcp.Tests", "OOTPDatabaseConverter.Mcp.Tests\OOTPDatabaseConverter.Mcp.Tests.csproj", "{F4G5H6I7-J8K9-0123-EFGH-567890123456}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{D2E3F4G5-H6I7-9012-CDEF-345678901234}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2E3F4G5-H6I7-9012-CDEF-345678901234}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2E3F4G5-H6I7-9012-CDEF-345678901234}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3F4G5H6-I7J8-9012-DEFG-456789012345}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3F4G5H6-I7J8-9012-DEFG-456789012345}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3F4G5H6-I7J8-9012-DEFG-456789012345}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3F4G5H6-I7J8-9012-DEFG-456789012345}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4G5H6I7-J8K9-0123-EFGH-567890123456}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4G5H6I7-J8K9-0123-EFGH-567890123456}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4G5H6I7-J8K9-0123-EFGH-567890123456}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4G5H6I7-J8K9-0123-EFGH-567890123456}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
